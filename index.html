@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test forms</title>
+  </head>
+  <body>
+    <h1>Test Login-formular</h1>
+    <p>Fill this form</p>
+    <form>
+      <label for="firstname">First Name</label>
+      <input type="text" placeholder="Enter your first Name" name="firstname" required />
+      <label for="lastname">Last Name</label>
+      <input type="text" placeholder="Enter your last Name" name="lastname" required />
+      <label for="email">E-mail</label>
+      <input type="email" placeholder="Enter Email" name="email" required />
+      <label for="psw">Password</label>
+      <input type="password" placeholder="Enter Password" name="psw" required />
+      <label for="psw_repeat">Repeat Password</label>
+      <input type="password" placeholder="Repeat Password" name="psw_repeat" required />
+      <fieldset id="button_area">
+        <button type="button" class="cancel">Cancel</button>
+        <button type="submit" class="submit">Sign up</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
